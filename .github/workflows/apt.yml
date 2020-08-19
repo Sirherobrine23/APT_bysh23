@@ -1,0 +1,20 @@
+name: Apt
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build
+    steps:
+    - name: Checkout
+      uses: actions/checkout@main
+    - name: Apt PUblish
+      uses: Sirherobrine23/apt-pages-repo-actions@main
+      with:
+        KEY_ID: '908144B521689A950CCB5E801347937B188623BC'
+        URL_REPO: 'https://apt-pages.sh23.org'
+        PASS: "${{ secrets.PASSWORD }}"
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3.7.0-8
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: aptly/public/

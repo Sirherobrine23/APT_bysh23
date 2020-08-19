@@ -1,0 +1,6 @@
+secret*
+*.log
+public/db
+public/pool
+public/dists
+package/desktop.ini
