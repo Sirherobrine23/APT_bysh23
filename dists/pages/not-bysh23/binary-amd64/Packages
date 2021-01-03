@@ -1,0 +1,80 @@
+Package: github-desktop
+Priority: extra
+Section: GNOME;GTK;Development
+Installed-Size: 247416
+Maintainer: Brendan Forster <github@brendanforster.com>
+Architecture: amd64
+Version: 2.5.7-linux1
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin, gconf2, gconf-service, libappindicator1, libcurl3 | libcurl4, libsecret-1-0, gnome-keyring
+Recommends: pulseaudio | libasound2
+Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
+Filename: pool/not-bysh23/g/github-desktop/GitHubDesktop-linux-2.5.7-linux1.deb
+Size: 68145744
+MD5sum: 6293a73c202317cc45ff5f5ab7ee1a9e
+SHA1: 63ba942d70e04bbd8f445e2f6f8c8b5cb8aebc6e
+SHA256: c6e7fee56476b3326933df26865273470cb0c7dcf45e64b14585c3745133c566
+SHA512: e65ac737930e9199a1d6113c6f1df4c862d244d71c78c099acd696a091d111b36e4bcc97bc0c0350b71ce40083da6dd11866e9651bfa63f711a804ed7b5e8fcb
+Description: Simple collaboration from your desktop
+ This is the unofficial port of GitHub Desktop for Linux distributions
+Homepage: https://github.com/shiftkey/desktop
+
+Package: google-chrome-stable
+Priority: optional
+Section: web
+Installed-Size: 232425
+Maintainer: Chrome Linux Team <chromium-dev@chromium.org>
+Architecture: amd64
+Version: 87.0.4280.88-1
+Provides: www-browser
+Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.16), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.16), libcairo2 (>= 1.6.0), libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.5.12), libdrm2 (>= 2.4.38), libexpat1 (>= 2.0.1), libgbm1 (>= 8.1~0), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.22), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.4.1), libxrandr2, wget, xdg-utils (>= 1.0.2)
+Pre-Depends: dpkg (>= 1.14.0)
+Recommends: libu2f-udev, libvulkan1
+Filename: pool/not-bysh23/g/google-chrome-stable/google-chrome-stable_87.0.4280.88-1_amd64.deb
+Size: 72446160
+MD5sum: a10e01d4383f14747786be3b54f0a643
+SHA1: 3f3e0d08b8257fd0b1ae0d6d2f9734b3c5df9271
+SHA256: 4bc68502dc5e22d5c264b3fb5d0a1ecfdadc3ba21d945646d8d37de4b8a96e58
+SHA512: 19eea1d1be171cab60ce5135572da9388b4b72e313118478b53f65c0bf2293733809282736b98ef828a208b7426e5191258f8c666cba7510b8bf5c92d0010a47
+Description: The web browser from Google
+ Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
+
+Package: microsoft-edge-dev
+Priority: optional
+Section: web
+Installed-Size: 301311
+Maintainer: Microsoft Edge for Linux Team <null@null.com>
+Architecture: amd64
+Version: 88.0.673.0-1
+Provides: www-browser
+Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.16), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatomic1 (>= 4.8), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.16), libcairo2 (>= 1.6.0), libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.5.12), libdrm2 (>= 2.4.38), libexpat1 (>= 2.0.1), libgbm1 (>= 8.1~0), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.22), libpango-1.0-0 (>= 1.14.0), libuuid1 (>= 2.16), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.4.1), libxrandr2, wget, xdg-utils (>= 1.0.2)
+Pre-Depends: dpkg (>= 1.14.0)
+Recommends: libu2f-udev, libvulkan1
+Filename: pool/not-bysh23/m/microsoft-edge-dev/microsoft-edge-dev_88.0.673.0-1_amd64.deb
+Size: 88309450
+MD5sum: 778c08101272e3269099bb0253d2fc08
+SHA1: 1cff12453556ed879fc6ca664259101137f42251
+SHA256: ffd002c232bfb54f23648bd56e4bec60c74eae35c19f1e45c15e84a2a114d3e1
+SHA512: 26760134426aef9d3672f1acc438f976ec86eafdc74bc0ebab0bcdbff98f42e8124eac99d7abd725a469c766c93059b691e990c1bfb9cf21e272e0c663f55767
+Description: The web browser from Microsoft
+ Microsoft Edge is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
+
+Package: termius-app
+Priority: extra
+Section: default
+Installed-Size: 222821
+Maintainer: Termius Corporation <support@termius.com>
+Architecture: amd64
+Version: 6.5.1
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libappindicator3-1, libsecret-1-0
+Filename: pool/not-bysh23/t/termius-app/Termius.deb
+Size: 60810734
+MD5sum: b1d0cff4f54547c70d7af7e8d6323c48
+SHA1: 3cc941ba561b366fa18dae048f1970f7bad6b1e8
+SHA256: 71b2566d9e2de81b43610bc4cae965b8333b8bf2d9f7915094e670471d1a1bfa
+SHA512: b9aaed5a7bf2b44a28496b53af0b6632a5d9980f5db045a8f1a1aa0a97ed61aabbd7f6e852cb8c4cc3079657a6c73cb5f870176c6c7253ab7da3e326086adbc5
+Description: 
+  Desktop SSH Client
+Homepage: https://termius.com/
+License: unknown
+Vendor: Termius Corporation <support@termius.com>
+

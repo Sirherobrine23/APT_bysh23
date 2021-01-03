@@ -1,0 +1,57 @@
+Package: code-insiders
+Priority: optional
+Section: devel
+Installed-Size: 277651
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Architecture: arm64
+Version: 1.53.0-1607924753
+Replaces: visual-studio-code-insiders
+Provides: visual-studio-code-insiders
+Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
+Conflicts: visual-studio-code-insiders
+Filename: pool/not-bysh23/c/code-insiders/code-insiders_1.53.0-1607924753_arm64.deb
+Size: 67815224
+MD5sum: f75a9bb32c88a04e5c2b4df5b866fa94
+SHA1: 10ac7be2df6d6182b89f1bfbc42c75c9843cf7c8
+SHA256: 02131102fa27c4d82b70747b46c467efc5062dac19bde12f9b4f6e82ada4ddbc
+SHA512: f5b7eebce681123278e7c8b8f2825ad7ee1344d3fb65ddcb1d9950bdc919f26d3ae916b1011ee6d219cdbcccba6650884d5d630f484688b6699783ba84226814
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+Homepage: https://code.visualstudio.com/
+
+Package: qemu-user-static
+Priority: optional
+Section: otherosfs
+Installed-Size: 207739
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Architecture: arm64
+Source: qemu
+Version: 1:5.1+dfsg-4
+Provides: qemu-user-binfmt
+Recommends: binfmt-support
+Suggests: sudo
+Conflicts: qemu-user-binfmt
+Breaks: binfmt-support (<< 2.1.7~)
+Filename: pool/not-bysh23/q/qemu/qemu-user-static_5.1+dfsg-4_arm64.deb
+Size: 20647076
+MD5sum: 0ba0111c21e716f4b6a31bc62a66272f
+SHA1: ae243ba170d26c98249464f03ba37ade7b02cf73
+SHA256: c645929de6e0943644de1c931e69b462e7127d74e6333cb304eb8eb89dde7e93
+SHA512: 1e11725b8f4efe161221ff2ed81ed48ea9ed9097181c50ef36c07fb4879735656081a2d309a85ddb53b18af9a80855c8942ddea524883aaf4de934609c0fe79c
+Description: QEMU user mode emulation binaries (static version)
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides the user mode emulation binaries, built
+ statically. In this mode QEMU can launch Linux processes compiled for
+ one CPU on another CPU.
+ .
+ qemu-user-static package will register binary formats which the provided
+ emulators can handle, so that it will be possible to run foreign binaries
+ directly.
+Built-Using: capstone (= 4.0.1+really+3.0.5-2), gcc-10 (= 10.2.0-5), glib2.0 (= 2.64.4-1), glibc (= 2.31-3), gnutls28 (= 3.6.14-2), zlib (= 1:1.2.11.dfsg-2)
+Homepage: http://www.qemu.org/
+Multi-Arch: foreign
+

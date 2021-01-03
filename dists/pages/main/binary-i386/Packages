@@ -1,0 +1,157 @@
+Package: bds-common
+Section: bysh23
+Maintainer: Matheus S Queiroga <srherobrine20@gmail.com>
+Architecture: all
+Version: 1.16.101.01
+Depends: qemu-user-static, libcurl4
+Filename: pool/main/b/bds-common/bds-common_1.16.101.01_all.deb
+Size: 51961992
+MD5sum: 9053a139e7c7e5f14179d2e2b8f72980
+SHA1: 93e83bb73de06cd1f1acec8b494c36089021fd06
+SHA256: 9b2567e372d9205b8b09e40bdcf1ea2e1f19c8c12332193b8a4c6974445866a9
+SHA512: 9fe7fbb0f8671e28f1f349141ad98cb50ab686c92391c9a5b558997eb7e130c75c7e4ee55fa116a2f4f7b49bfdf9905a13bcee3dcc6f9dda1d2cfe3746df630e
+Description: Small package with Minecraft Bedrock Server software
+ Is not Open Sorce Software, Mojang AB
+Homepage: https://www.minecraft.net/en-us/download/server/bedrock
+
+Package: bds-common
+Section: bysh23
+Maintainer: Matheus S Queiroga <srherobrine20@gmail.com>
+Architecture: all
+Version: 1.16.40.02
+Depends: qemu-user-static, libcurl4
+Filename: pool/main/b/bds-common/bds-common_1.16.40.02_all.deb
+Size: 42947492
+MD5sum: bc1cfb5eefc2ad17e16ad121d418d692
+SHA1: d3c5d6dae845a65671a37ccdd8bcdf43f721838c
+SHA256: e15f4f20c62d56b4e2ccdd703a5ad11ddf05aabb1875517cda6cb690137571de
+SHA512: af813934d52e0ab32f80231314f39eabe949406cb3967d38cfe0fe3b19e8398037e9c37270052150f242a2075f2460fcb09b7f590bd2d473ff97fff8f9cfa1ef
+Description: Small package with Minecraft Bedrock Server software
+ Is not Open Sorce Software, Mojang AB
+Homepage: https://www.minecraft.net/en-us/download/server/bedrock
+
+Package: bds-maneger
+Essential: no
+Section: bysh23
+Maintainer: Matheus Sampaio Queiroga (Sirherobrine23) <srherobrine20@gmail.com>
+Architecture: all
+Version: 1.5.5
+Depends: screen, dos2unix, jq, zip, unzip, net-tools, bds-common, gdrive, figlet, whiptail, speedtest-cli
+Conflicts: bds, bds-install
+Filename: pool/main/b/bds-maneger/bds-maneger_1.5.5_all.deb
+Size: 17736
+MD5sum: 5a68796a2528baa72e28df4254114db4
+SHA1: 1b3565eae7e0d8081fcc928ece2d7d03c91584db
+SHA256: 0daec09d19f59ed39b64ac1bace2184cdbc3e9eb85c058f360acdc97b759c6a7
+SHA512: 4e33ca4637c8f4c90180e56b67d94f0c4842dc9c5096e4a266079332dc0d44e9164e45429ce91753a7befb6602ec832ff1558bdac5971e87c08ce68b73ed4437
+Description: Minecraft Bedrock Server is a way for you to host your Minecraft Bedrock server in your own home or on a cloud service of your choice
+ The purpose of this package is to simplify various processes from maintenance to management.
+Homepage: https://github.com/Sirherobrine23/bds-maneger
+
+Package: bds-maneger
+Essential: no
+Section: bysh23
+Maintainer: Matheus Sampaio Queiroga (Sirherobrine23) <srherobrine20@gmail.com>
+Architecture: all
+Version: 1.5.4
+Depends: screen, dos2unix, jq, zip, unzip, net-tools, bds-common, gdrive, figlet, whiptail, speedtest-cli
+Conflicts: bds, bds-install
+Filename: pool/main/b/bds-maneger/bds-maneger_1.5.4_all.deb
+Size: 16876
+MD5sum: bcc0c10ee90f2be30e10443b558f2284
+SHA1: 68b2989fd5dc86a7528b2bdfcd73afb3bf139235
+SHA256: 2fde54c069c63ac3fb24bd0dba6ea99a3c9bb63ea5b6e82e4393bcd50330eebd
+SHA512: 9543c8872dc693796b3d1ff6cc37b65924eb563ed80eab0375926493212486415909e9b2ba7e0508b0b7255c568f07f1f901c860ee3c6dd257a4bf7890031d32
+Description: Minecraft Bedrock Server is a way for you to host your Minecraft Bedrock server in your own home or on a cloud service of your choice
+ The purpose of this package is to simplify various processes from maintenance to management.
+Homepage: https://github.com/Sirherobrine23/bds-maneger
+
+Package: bds-maneger
+Essential: no
+Section: bysh23
+Maintainer: Matheus Sampaio Queiroga (Sirherobrine23) <srherobrine20@gmail.com>
+Architecture: all
+Version: 1.5.3
+Depends: screen, dos2unix, jq, zip, unzip, net-tools, bds-common, gdrive, figlet, whiptail, speedtest-cli
+Conflicts: bds, bds-install
+Filename: pool/main/b/bds-maneger/bds-maneger_1.5.3_all.deb
+Size: 16804
+MD5sum: d6bca5cc09627b6b97c2f60612d824c5
+SHA1: 26831cd9ecbcecd9f31e497066e6e283e1004f07
+SHA256: e86dae1db22464a52fb06c8a2a1773c6eeda208062415a610dbd8768993381f6
+SHA512: 98621ef6985f71e09726d047accf1865cd7fd7bc9851f9cb7bded82d51538f8c07bd13541148d5fa344f27aacfef5777db4ce20c5718aa91011570483b20ae6a
+Description: Minecraft Bedrock Server is a way for you to host your Minecraft Bedrock server in your own home or on a cloud service of your choice
+ The purpose of this package is to simplify various processes from maintenance to management.
+Homepage: https://github.com/Sirherobrine23/bds-maneger
+
+Package: bds-maneger
+Essential: no
+Section: bysh23
+Maintainer: Matheus Sampaio Queiroga (Sirherobrine23) <srherobrine20@gmail.com>
+Architecture: all
+Version: 1.5.2
+Depends: screen, dos2unix, jq, zip, unzip, net-tools, bds-common, gdrive, figlet, whiptail, speedtest-cli
+Conflicts: bds, bds-install
+Filename: pool/main/b/bds-maneger/bds-maneger_1.5.2_all.deb
+Size: 16380
+MD5sum: ab9c9b82a21f2d41429bdce9773ce12c
+SHA1: 72cdbaaeabfd7818338d89cf876edb79b5ad4281
+SHA256: 3ae348111d5f87111267f2935d032182c4f5db5240278b081ee0596c6482faed
+SHA512: 8c57cf8b0f7e7d32de39a53342ba8ad2d780d9911558e5969c9b9b79f1e56b751626ae15651ce251cdaa1c5655ceb2310205e04b68caa17959255d87d2a55536
+Description: Minecraft Bedrock Server is a way for you to host your Minecraft Bedrock server in your own home or on a cloud service of your choice
+ The purpose of this package is to simplify various processes from maintenance to management.
+Homepage: https://github.com/Sirherobrine23/bds-maneger
+
+Package: bds-maneger
+Essential: no
+Section: bysh23
+Maintainer: Matheus Sampaio Queiroga (Sirherobrine23) <srherobrine20@gmail.com>
+Architecture: all
+Version: 1.5.1
+Depends: screen, dos2unix, jq, zip, unzip, net-tools, bds-common, gdrive, figlet, whiptail, speedtest-cli
+Conflicts: bds, bds-install
+Filename: pool/main/b/bds-maneger/bds-maneger_1.5.1_all.deb
+Size: 16368
+MD5sum: 70bee16668a6f4fcc9d28cea5f52a0ec
+SHA1: bacbaec5e86a83191982ed27bfe98b9079e34b72
+SHA256: 417906167bbfcc7695dd28fb359e12cf79cc76d726b4a7b6a2e3319884cf0f0e
+SHA512: fdb40beb94eb894350387a5d7c2ba4025688eb98245c432e8c2bedf7802b5ec5c541177115165a6b97e6b8676696baf54b6b2056527de0125c50443354480c2a
+Description: Minecraft Bedrock Server is a way for you to host your Minecraft Bedrock server in your own home or on a cloud service of your choice
+ The purpose of this package is to simplify various processes from maintenance to management.
+Homepage: https://github.com/Sirherobrine23/bds-maneger
+
+Package: bds-maneger
+Essential: no
+Section: bysh23
+Maintainer: Matheus Sampaio Queiroga (Sirherobrine23) <srherobrine20@gmail.com>
+Architecture: all
+Version: 1.5.0
+Depends: screen, dos2unix, jq, zip, unzip, net-tools, bds-common, gdrive, figlet, whiptail, speedtest-cli
+Conflicts: bds, bds-install
+Filename: pool/main/b/bds-maneger/bds-maneger_1.5.0_all.deb
+Size: 17352
+MD5sum: 22cd13ce6f9a6cbe0e17441547a09bba
+SHA1: a075f5dae03fe9117af0c780713b14d96c8fb45c
+SHA256: 54ad028f46f4fb97d061178d191856c816f2dbc42bac7ce54a0972a442200220
+SHA512: b1410a871440da3c6503464ebcff99056eb215d659551bd1398b00db24202027a40fcc134f2420308837e86803844827d9b158d2742b91f755b1a91ad1280da9
+Description: Minecraft Bedrock Server is a way for you to host your Minecraft Bedrock server in your own home or on a cloud service of your choice
+ The purpose of this package is to simplify various processes from maintenance to management.
+Homepage: https://github.com/Sirherobrine23/bds-maneger
+
+Package: gdrive
+Section: bysh23
+Maintainer: Matheus S Queiroga <srherobrine20@gmail.com>
+Architecture: all
+Version: 2.1.0-6
+Filename: pool/main/g/gdrive/gdrive_2.1.0-6_all.deb
+Size: 13770620
+MD5sum: c6ab2a607e67beba978304d1825758d2
+SHA1: 11994dc16cf2215475c925aa29260a5edf16961a
+SHA256: 205f507025c771976970ba5717f5a00aecf3faa324bb90de5703bad5354a6868
+SHA512: 8dcad0d99774908d14ec426f7bb85a75723cfe0b71bdc1cb9ca13fb157f0e2f3103a3526daf0ddbf49dd78d8d3555b2bcaf8ffee6bee4663ec2eeb9a8d912891
+Description: Pequeno pcte com o gdrive by sh23
+ Para quem não conhece o programa gdrive ele é um gerenciador na qual você baixa (Download) e Sobe (Upload) arquivos para o Google Driver
+ .
+ Além de ser OpenSource e nos diponibiliza seu codigo no github esse é o link: https://github.com/prasmussen/gdrive
+Homepage: https://github.com/Sirherobrine23/Gdrive-static-file
+
