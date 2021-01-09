@@ -2,6 +2,22 @@ Package: bds-common
 Section: bysh23
 Maintainer: Matheus S Queiroga <srherobrine20@gmail.com>
 Architecture: all
+Version: 1.16.201.02
+Depends: qemu-user-static, libcurl4
+Filename: pool/main/b/bds-common/bds-common_1.16.201.02_all.deb
+Size: 61228052
+MD5sum: ef72805c15e4f05c5bca30c9edebdc84
+SHA1: 8ed82bd422cccbf748e63e7269841812042d8e8d
+SHA256: b5819b4f868dbbce5518eb1b837e84672a249706926c585faeb982268d7ad6a6
+SHA512: ab54c71bd0b43ad90bc17d88fa83d5047871b55ef088b1d17b50507c109046ff1030c986d13ca85e9e0f18c51994f0f57549640ffc93314307136c6ac25be6ee
+Description: Small package with Minecraft Bedrock Server software
+ Is not Open Sorce Software, Mojang AB
+Homepage: https://www.minecraft.net/en-us/download/server/bedrock
+
+Package: bds-common
+Section: bysh23
+Maintainer: Matheus S Queiroga <srherobrine20@gmail.com>
+Architecture: all
 Version: 1.16.101.01
 Depends: qemu-user-static, libcurl4
 Filename: pool/main/b/bds-common/bds-common_1.16.101.01_all.deb
