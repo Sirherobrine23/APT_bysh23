@@ -1,6 +1,5 @@
-#!/bin/sh
-        set -x
-        apt-key add '-----BEGIN PGP PUBLIC KEY BLOCK-----
+set -x
+echo '-----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQGNBF8wPEMBDADDtV1Un4h8VEgV1+EtD963DT0oMnAqp1Ed/5Fa0GCrlkgABKUb
 fWTrX55r7kIR2O+GB2T5j4Q3GjmLKRHvhq/uLcYSukBz7SnNydwZFPAgod9F0OaU
@@ -40,7 +39,8 @@ uXBe+griZlkJyVWDUIaLdzKxnYzZHUX9o0uh2lYBPahfCCPiTC7HNNMXHYtSGe1r
 EnhM2MseIGvcyGeemoklqCFG0YjRoIG2kK/NIwqLOSd1CZhrpYCfhkj+b35Ymf+I
 Bed/lzpgLTtscfGZVbP5Fk3tA6J081oVy6gkv3kWc/KaSNjh
 =gM1d
------END PGP PUBLIC KEY BLOCK-----'
-        echo deb https://apt-pages.sh23.org pages main
-not-bysh23 > /etc/apt/sources.list.d/pages.list
-        apt update
+-----END PGP PUBLIC KEY BLOCK-----'|apt-key add -
+echo "deb https://apt-pages.sh23.org pages main
+not-bysh23" > /etc/apt/sources.list.d/pages.list
+
+apt update
