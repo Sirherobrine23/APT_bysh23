@@ -5,11 +5,11 @@ Architecture: all
 Version: 1.16.201.02
 Depends: qemu-user-static, libcurl4
 Filename: pool/main/b/bds-common/bds-common_1.16.201.02_all.deb
-Size: 61225200
-MD5sum: 50077ad7a927741911c67fab4b8ae3d1
-SHA1: f8a5b7e0464fb9afd58559293f89a22d85cb4447
-SHA256: f320338cc4f9a78870196212cf1abf5ebae95387ed8fe7f05cdcf91d62efca6c
-SHA512: 78c4648504062b20525bc1d2e55e293f587c15375d938e4104ceffe995e5f80dcd84d0ad8ba326a695a3f6c21d4c85619fff7684a082e4387a7bf1638f4e459d
+Size: 61222248
+MD5sum: b95ae9898413600d7c224eb84f297c14
+SHA1: 28206fb3e5dfc4d22eb93d7bcad6dfa792101603
+SHA256: 76072d295b56aadc7f61a5663d3e7e66a61e859ce4eae061453aec10faac1f0f
+SHA512: 04a4097c8740e1f4384110c733e17f192381a85875a43a7dc4f207f2a783e3bee59e0917140fcfb58c83f6e1a4d9ea44cb91c7e55df233a23635dfc7f66faa5f
 Description: Small package with Minecraft Bedrock Server software
  Is not Open Sorce Software, Mojang AB
 Homepage: https://www.minecraft.net/en-us/download/server/bedrock
