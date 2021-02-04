@@ -155,19 +155,21 @@ Description: Minecraft Bedrock Server is a way for you to host your Minecraft Be
 Homepage: https://github.com/Sirherobrine23/bds-maneger
 
 Package: gdrive
-Section: bysh23
-Maintainer: Matheus S Queiroga <srherobrine20@gmail.com>
+Section: The Bds Maneger
+Maintainer: Matheus Sampaio Queiroga <srherobrine20@gmail.com>
 Architecture: all
 Version: 2.1.0-6
 Filename: pool/main/g/gdrive/gdrive_2.1.0-6_all.deb
-Size: 13770620
-MD5sum: c6ab2a607e67beba978304d1825758d2
-SHA1: 11994dc16cf2215475c925aa29260a5edf16961a
-SHA256: 205f507025c771976970ba5717f5a00aecf3faa324bb90de5703bad5354a6868
-SHA512: 8dcad0d99774908d14ec426f7bb85a75723cfe0b71bdc1cb9ca13fb157f0e2f3103a3526daf0ddbf49dd78d8d3555b2bcaf8ffee6bee4663ec2eeb9a8d912891
-Description: Pequeno pcte com o gdrive by sh23
- Para quem não conhece o programa gdrive ele é um gerenciador na qual você baixa (Download) e Sobe (Upload) arquivos para o Google Driver
+Size: 14232032
+MD5sum: 3e8ffe3560e303c80b6817865b6f8011
+SHA1: b49fa3505e0ffabb84ad4862ef91c1d5c4cb099d
+SHA256: 28593f96e5d0d3a64b66698270fdd247996a123c324975711bcf2d25ca4ebb4c
+SHA512: 837cc5da3ae24239e6b41fe93cc4660abfc4122db9198d60d1f5e5d4d7ec67e33d91d94e87178305fa96bd7ca0b1f67662ea82f923dcf6539fac325a48e39bda
+Description: Small gdrive package by Sirherobrine23
+ For those who do not know the gdrive program it is a manager in which you download and upload files to Google Driver
  .
- Além de ser OpenSource e nos diponibiliza seu codigo no github esse é o link: https://github.com/prasmussen/gdrive
-Homepage: https://github.com/Sirherobrine23/Gdrive-static-file
+ In addition to being OpenSource and make available your code on github this is the link: https://github.com/prasmussen/gdrive
+ .
+ modified and open source gdrive at https://github.com/Bds-Maneger/google_drive_cli
+Homepage: https://github.com/Bds-Maneger/google_drive_cli
 
